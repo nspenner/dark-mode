@@ -51,6 +51,7 @@ nav > a:nth-child(1) {
 }
 
 h1 {
+    font-size: 2em;
     margin: 0;
 }
 
@@ -62,11 +63,24 @@ main {
 aside {
     grid-column: 1 / span 1;
     grid-row: 2 / -1;
+    overflow: scroll;
 }
 
 footer {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
+    display: flex;
+    justify-content: center;
+}
+
+footer > button {
+    height: 2em;
+    background-color: var(--color4);
+    border: 1px solid var(--color1);
+}
+
+footer > button:hover {
+    background-color: var(--color5);
 }
 
 #advertisement {
