@@ -6,6 +6,5 @@ function toggleDarkMode() {
   else {
     document.body.style.setProperty("--color2", "rgba(0, 0, 0, 0.75)");
     document.body.style.setProperty("--color3", "rgba(0, 0, 0, 0.5)")
-    console.log(document.body.style);
   }
 }
